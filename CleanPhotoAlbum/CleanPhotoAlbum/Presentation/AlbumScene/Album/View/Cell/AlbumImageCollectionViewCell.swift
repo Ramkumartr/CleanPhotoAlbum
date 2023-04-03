@@ -76,6 +76,7 @@ class AlbumImageCollectionViewCell: UICollectionViewCell {
     }
     
     override func prepareForReuse() {
+        coverImage.image = nil
         super.prepareForReuse()
     }
 }
